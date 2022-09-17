@@ -1,16 +1,16 @@
 <script setup lang="ts">
-  const props = defineProps({
-    isActive: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
-  });
+defineProps({
+  isActive: {
+    type: Boolean,
+    required: false,
+    default: false,
+  },
+});
 </script>
 
 <template>
   <button class="option"
-          :class="{ 'option-active': props.isActive }">
+          :class="{ 'option-active': isActive }">
     <slot />
   </button>
 </template>

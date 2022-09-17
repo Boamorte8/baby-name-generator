@@ -1,6 +1,10 @@
-# Nuxt 3 Minimal Starter
+# Baby Name Generator
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+This project is a Baby Name Generator developed with [Nuxt 3](https://v3.nuxtjs.org) for Nuxt 3 Course.
+
+## Concepts learned
+
+- Auto imports: Nuxt 3 handle auto imports for most of the vue concepts and for components folder. For nested components the name is built with the names of the folders and component. Example: Card/Container => CardContainer
 
 ## Setup
 
